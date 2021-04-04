@@ -19,6 +19,8 @@ np.random.shuffle(f)
 
 if __name__ == "__main__":
     tasks = {}
+    
+    # Below needs to be modified according to different original datasets
     for index, line in enumerate(f):
         l = line.split(",")
         # print(l[27][:-1])
@@ -32,8 +34,8 @@ if __name__ == "__main__":
                     tasks[i][0].append(l[0])
                 elif l[i] == "1.0":
                     tasks[i][1].append(l[0])
+    #until here
 
-    
     for i in tasks:
         root = name + "/new/" + str(i)
         os.makedirs(root, exist_ok=True)
