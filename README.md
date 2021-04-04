@@ -27,7 +27,10 @@ python main.py
 ```
 
 ## Performance
-The performance of meta-learning is not stable. We run the experiments for two times. And we report the average results and the number of the iteration where we obtain the best result here for your reference.
+The performance of meta-learning is not stable for some properties. We run the experiments for two times. And we report the results and the number of the iteration where we obtain the best result here for your reference.
+
+| Dataset    | k     |  Iteration     | Results   |
+| ---------- | :-----------:  | :-----------: |  |
 
 ## Reference
 
