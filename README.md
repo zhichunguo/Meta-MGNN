@@ -7,6 +7,11 @@ This is the source code and dataset for the following paper:
 
 Contact Zhichun Guo (zguo5@nd.edu), if you have any questions.
 
+## Datasets
+The datasets uploaded can be downloaded to train our model directly.
+
+The original datasets are downloaded from [Data](http://snap.stanford.edu/gnn-pretrain/data/chem_dataset.zip). We utilize Original_datasets/splitdata.py to split the datasets according to the molecular properties and save them in different files in the Original_datasets/[DatasetName]/new. Then run main.py, the datasets will be automatically preprocessed by loader.py and be learned by our model.
+
 ## Usage
 
 ### Installation
@@ -20,9 +25,6 @@ We used the following Python packages for the development by python 3.6.
 - tqdm = 4.50.0
 - rdkit
 ```
-
-### Datasets
-The original datasets are downloaded from [Data](http://snap.stanford.edu/gnn-pretrain/data/chem_dataset.zip). We utilize Original_datasets/splitdata.py to split the datasets according to the molecular properties and save them in different files in the Original_datasets/[DatasetName]/new. Then run main.py, the datasets will be automatically preprocessed by loader.py and be learned by our model.
 
 ### Run code
 
