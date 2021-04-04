@@ -26,6 +26,9 @@ We used the following Python packages for the development by python 3.6.
 python main.py
 ```
 
+### Result
+The performance of meta-learning is not stable. We run the experiments for two times. And we report the average results and the number of the iteration where we obtain the best result here for your reference.
+
 ## Reference
 
 ```
