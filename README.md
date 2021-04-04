@@ -44,11 +44,13 @@ The performance of meta-learning is not stable for some properties. We report tw
 |  |  | | SR-p53| 77.50/77.91 | |  | | SR-p53 | 78.86/79.14 | 
 |  |  | | Ave.| 76.59/77.14 | |  | | Ave. | 77.99/78.05 | 
 
+## Acknowledgements
 
+The code is implemented based on [Strategies for Pre-training Graph Neural Networks](https://github.com/snap-stanford/pretrain-gnns).
 
 ## Reference
 
-```
+```.
 @inproceedings{guo2020metamgnn,
   title={Few-shot Graph Learning for Molecular Property Prediction},
   author={Guo, Zhichun and Zhang, Chuxu and Yu, Wenhao and Herr, John and Wiest, Olaf and Jiang, Meng and Chawla, Nitesh V},
