@@ -22,6 +22,7 @@ We used the following Python packages for the development by python 3.6.
 ```
 ### Run code
 
+Datasets and k (for k-shot) can be changed in the last line of main.py.
 ```
 python main.py
 ```
@@ -48,7 +49,7 @@ The performance of meta-learning is not stable for some properties. We report tw
 ## Reference
 
 ```
-@inproceedings{guo2020graseq,
+@inproceedings{guo2020metamgnn,
   title={Few-shot Graph Learning for Molecular Property Prediction},
   author={Guo, Zhichun and Zhang, Chuxu and Yu, Wenhao and Herr, John and Wiest, Olaf and Jiang, Meng and Chawla, Nitesh V},
   booktitle={WWW},
