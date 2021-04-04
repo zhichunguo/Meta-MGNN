@@ -20,6 +20,10 @@ We used the following Python packages for the development by python 3.6.
 - tqdm = 4.50.0
 - rdkit
 ```
+
+### Datasets
+The original datasets are downloaded from [Data](http://snap.stanford.edu/gnn-pretrain/data/chem_dataset.zip).
+
 ### Run code
 
 Datasets and k (for k-shot) can be changed in the last line of main.py.
