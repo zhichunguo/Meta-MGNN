@@ -56,11 +56,11 @@ The code is implemented based on [Strategies for Pre-training Graph Neural Netwo
 
 ## Reference
 
-```.
-@inproceedings{guo2020metamgnn,
-  title={Few-shot Graph Learning for Molecular Property Prediction},
+```
+@article{guo2021few,
+  title={Few-Shot Graph Learning for Molecular Property Prediction},
   author={Guo, Zhichun and Zhang, Chuxu and Yu, Wenhao and Herr, John and Wiest, Olaf and Jiang, Meng and Chawla, Nitesh V},
-  booktitle={WWW},
+  journal={arXiv preprint arXiv:2102.07916},
   year={2021}
 }
 ```
