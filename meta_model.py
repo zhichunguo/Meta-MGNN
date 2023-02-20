@@ -237,7 +237,7 @@ class Meta_model(nn.Module):
                     if self.add_masking:
                         mask_num = random.sample(range(0,node_emb.size()[0]), self.batch_size)
                         pred_emb = self.masking_linear(node_emb[mask_num])
-                        loss += (self.add_weight * self.masking_criterion(pred_emb.double(), batch.x[mask_num,0]))
+                        loss_q += (self.add_weight * self.masking_criterion(pred_emb.double(), batch.x[mask_num,0]))
 
                     this_loss_q += loss_q
 
